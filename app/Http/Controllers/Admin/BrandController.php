@@ -144,6 +144,25 @@ class BrandController extends Controller
     //         });
     // </script>
 
+    //     if you want to more editor use single page 
+    //             <script>
+    //     ClassicEditor
+    //         .create(document.querySelector('#future-editor'))
+    //         .catch(error => {
+    //             console.error(error);
+    //         });
+    //     ClassicEditor
+    //         .create(document.querySelector('#about-editor'))
+    //         .catch(error => {
+    //             console.error(error);
+    //         });
+    //     ClassicEditor
+    //         .create(document.querySelector('#edu-editor'))
+    //         .catch(error => {
+    //             console.error(error);
+    //         });
+    // </script>
+
     }
 
     /**
