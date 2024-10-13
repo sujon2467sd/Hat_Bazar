@@ -90,7 +90,12 @@ class BrandController extends Controller
      */
     public function show(string $id)
     {
-        //
+    //     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/7.1.1/tinymce.min.js" referrerpolicy="origin"></script>
+    // <script type="text/javascript">
+    //     tinymce.init({
+    //         selector: 'textarea#default'
+    //     });
+    // </script>
     }
 
     /**
