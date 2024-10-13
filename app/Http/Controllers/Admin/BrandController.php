@@ -96,6 +96,22 @@ class BrandController extends Controller
     //         selector: 'textarea#default'
     //     });
     // </script>
+
+    //     ckEditor
+    //      <div class="mb-3">
+    //         <label for="about" class="form-label">About (Short Description)</label>
+    //         <textarea class="form-control" id="about" name="about" rows="3">{{ $check->about }}</textarea>
+    //      </div>
+                    
+    // <script src="https://cdn.ckeditor.com/ckeditor5/41.1.0/classic/ckeditor.js"></script>
+    // <script>
+    //     ClassicEditor
+    //         .create(document.querySelector('#editor'))
+    //         .catch(error => {
+    //             console.error(error);
+    //         });
+    // </script>
+
     }
 
     /**
