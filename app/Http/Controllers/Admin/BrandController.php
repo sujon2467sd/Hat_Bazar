@@ -97,12 +97,44 @@ class BrandController extends Controller
     //     });
     // </script>
 
-    //     ckEditor
-    //      <div class="mb-3">
-    //         <label for="about" class="form-label">About (Short Description)</label>
-    //         <textarea class="form-control" id="about" name="about" rows="3">{{ $check->about }}</textarea>
+    //      ckEditor
+
+    //          <div class="mb-3">
+    //     <label for="about" class="form-label">About (Short Description)</label>
+    //     <textarea class="form-control" id="about" name="about" rows="3">{{ $check->about }}</textarea>
     //      </div>
-                    
+        
+    //      {{-- ck editor --}}
+    // <style>
+    //     /* Style for CKEditor container */
+    //     #editor {
+    //         margin-top: 20px;
+    //         /* Add some top margin */
+    //         border: 1px solid #ccc;
+    //         /* Add a border for visual clarity */
+    //         border-radius: 5px;
+    //         /* Add border-radius for rounded corners */
+    //         padding: 10px;
+    //         /* Add some padding for space */
+    //     }
+
+    //     /* Style for CKEditor contents */
+    //     .ck-editor__editable {
+    //         min-height: 150px;
+    //         /* Set a minimum height for the editable area */
+    //         border: 1px solid #ddd;
+    //         /* Add a border for the editable area */
+    //         border-radius: 5px;
+    //         /* Add border-radius for rounded corners */
+    //         padding: 10px;
+    //         /* Add some padding for space within the editable area */
+    //         font-family: Arial, sans-serif;
+    //         /* Set font-family */
+    //     }
+    // </style> 
+                
+        
+    
     // <script src="https://cdn.ckeditor.com/ckeditor5/41.1.0/classic/ckeditor.js"></script>
     // <script>
     //     ClassicEditor
