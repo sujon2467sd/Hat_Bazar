@@ -75,6 +75,14 @@ class BrandController extends Controller
 
     // Optionally, you may return a response or redirect somewhere
     return redirect()->back()->with('success', 'Brand  created successfully!');
+
+
+         // Handle image upload if present
+        // if ($request->hasFile('img')) {
+        //     $imageName = time() . '.' . $request->img->extension(); // Create a unique image name
+        //     $request->img->move(public_path('uploads'), $imageName); // Save the image in the 'uploads' folder
+        //     $employeeCv->img = 'uploads/' . $imageName; // Save the image path in the database
+        // }
     }
 
     /**
