@@ -131,6 +131,25 @@ class BrandController extends Controller
         ]);
 
         return redirect()->route('brand.index')->with('success', 'Brand updated successfully.');
+
+    //     $employeeCv =  EmpolyeeCv::findOrFail($id); // Ensure correct model name
+
+    // $img_name = $employeeCv->img; // Initialize with current image name
+
+    // if ($request->hasFile('img')) {
+    //     $deleteOldImage = public_path($employeeCv->img); // Get the full path of the old image
+
+    //     if (file_exists($deleteOldImage)) {
+    //         File::delete($deleteOldImage); // Delete the old image if it exists
+    //     }
+
+    //     $file_img = $request->file('img'); // Get the uploaded image file
+    //     $img_name = uniqid() . "." . $file_img->getClientOriginalExtension(); // Generate a unique file name
+    //     $file_img->move(public_path('uploads/'), $img_name); // Move the uploaded file to the destination folder
+
+    //     $employeeCv->img = 'uploads/' . $img_name; // Save the new image path
+    // }
+        
     }
 
     /**
