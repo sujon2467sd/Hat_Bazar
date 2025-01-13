@@ -135,6 +135,21 @@ class BannerController extends Controller
 
         return redirect()->route('banner.create')->with('success', 'Banner updated successfully.');
 
+
+        //   if ($request->hasFile('img')) {
+        //     $Image = $request->file('img');
+        //     $ImageName = time() . '_abt.' . $Image->getClientOriginalExtension();
+        //     $path = public_path('admin/banner_images');
+
+
+        //     if ($about->img && file_exists(public_path($about->img))) {
+        //         unlink(public_path($about->img));
+        //     }
+
+        //     $Image->move($path, $ImageName);
+        //     $about->img = 'admin/banner_images/' . $ImageName;
+        // }
+
     }
 
     /**
